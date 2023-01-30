@@ -1,0 +1,64 @@
+.container {
+    background-color: #58717b;
+}
+
+.container h1 {
+    margin: 0;
+    padding: 50px;
+    color: white;
+}
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #253237;
+    padding: 50px;
+}
+
+.course {
+    max-width: 500px;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin: 50px;
+}
+
+.course-book {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    max-width: 100%;
+}
+
+.description {
+    padding: 50px;
+    padding-top: 0;
+}
+
+.instructor {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.instructor .avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px black solid;
+    margin-right: 10px;
+}
+
+.instructor p {
+    margin: auto 0;
+}
+
+.button {
+    background-color: #e87f2f;
+    margin-top: 20px;
+    border-width: 0;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
