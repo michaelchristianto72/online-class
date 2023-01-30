@@ -1,0 +1,42 @@
+.login {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .login .photo {
+    min-width: 50%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1587832433447-9f37e5c7ea47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+  }
+  
+  .login .photo .text {
+    text-align: center;
+    color: white;
+    margin-top: 20vh;
+  }
+  
+  .form {
+    margin: auto;
+    width: 400px;
+  }
+  
+  .form .input {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .form .show-pass {
+    margin-top: 10px;
+  }
+  
+  .form .button {
+    border-width: 0;
+    border-radius: 5px;
+    background-color: #e87f2f;
+    color: white;
+    margin-top: 50px;
+    padding: 15px;
+    width: 100%;
+  }
